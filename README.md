@@ -6,17 +6,29 @@ After many years of running vSRX 12.1X47-D10.4, i decided to look at more recent
 * 20.1R1.11
 * vSRX19.2R1.8
 
-wowsers they are a lot more resource intensive that 12.1
+wowsers they use a lot more a lot more resource intensive that 12.1
 
 typically for 12.1 1024MB RAM that idles @8.3%, for the other images they idle at 4G and 103% cpu
 
 so investigatio0n will be done to see what can be done about that
 
-**GNS SIMSERVER speciifcation**
+|vSRX    | RAM|cpu% idle|
+|:-------|:--:|----------|
+|12.1|1G|9%|
+|19.2|4G|103%|
+|20.1|4G|103%|
+
+```
+ 4090 moz-uk      20   0 4838856   4.0g  20896 S 103.9  13.2   4:20.23 qemu-system-x86
+ 3844 moz-uk      20   0 4830632   4.0g  21172 S 102.7  13.2  19:55.57 qemu-system-x86
+ 3794 moz-uk      20   0 1522744   1.0g  21068 S   8.9   3.4   3:08.35 qemu-system-x86
+```
+###GNS SIMSERVER speciifcation
 * AMD A8-5600K
 * 32GB DDR3 RAM
 * debian 10 x64
 * QEMU KVM
+
 
 cat /proc/cpuinfo
 ```
