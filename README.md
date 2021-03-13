@@ -10,7 +10,7 @@ wowsers they use a lot more a lot more resource intensive that 12.1
 
 typically for 12.1 1024MB RAM that idles @8.3%, for the other images they idle at 4G and 103% cpu
 
-so investigatio0n will be done to see what can be done about that
+so investigation will be done to see what can be done about that
 
 |vSRX    | RAM|cpu% idle|
 |:-------|:--:|----------|
