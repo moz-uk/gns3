@@ -29,6 +29,8 @@ so investigation will be done to see what can be done about that
 * debian 10 x64
 * QEMU KVM
 
+### Applicences within GNS3
+i created my own 12.1 applience but used a buitlin wizard when creating the later version maybe i did something magic back in the day and dont remember so i'll look to create my own appliences and see if that helps with the CPU and also have a look within the junos itsself to see what the RP thinks cpu utilization is like.
 
 cat /proc/cpuinfo
 ```
