@@ -23,13 +23,13 @@ so investigation will be done to see what can be done about that
  3844 moz-uk      20   0 4830632   4.0g  21172 S 102.7  13.2  19:55.57 qemu-system-x86
  3794 moz-uk      20   0 1522744   1.0g  21068 S   8.9   3.4   3:08.35 qemu-system-x86
 ```
-###GNS SIMSERVER speciifcation
+### GNS SIMSERVER speciifcation
 * AMD A8-5600K
 * 32GB DDR3 RAM
 * debian 10 x64
 * QEMU KVM
 
-### Applicences within GNS3
+### Appliances within GNS3
 i created my own 12.1 applience but used a buitlin wizard when creating the later version maybe i did something magic back in the day and dont remember so i'll look to create my own appliences and see if that helps with the CPU and also have a look within the junos itsself to see what the RP thinks cpu utilization is like.
 
 cat /proc/cpuinfo
