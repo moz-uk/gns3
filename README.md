@@ -146,3 +146,5 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management: ts ttp tm 100mhzsteps hwpstate cpb eff_freq_ro
 ```
+
+although not a proper fix, if we use the cpulimt facility and reduce the amount of CPU time an SRX is allowed then this doesnt hammer the physical CPUs as much and allows us to run more.
